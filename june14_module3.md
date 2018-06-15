@@ -1,7 +1,8 @@
 # Module 3
 
-### Exercise 1
+## Exercise One - Redex
 
+### Steps One and Two
 * I am having a lot of trouble with this exercise. I have been trying this for over two hours, and simply can not manage to get things right.
 	* I am writing the curl command "curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt"
 	* I am opening the texas.txt file using nano
@@ -67,7 +68,7 @@ Here are notes of my thinking:
 
 TRY TWO
 * I am convinced that these parts of my attempts are correct:
-        * s/\b to\b/,/g 
+``` s/\b to\b/,/g ``` 
 * However, upon close reading of the workbook ("We include the space preceding âtoâ in the regular expression, as well as the \b to denote the word ending."), I notice that I did not add a space after "to" to "denote the word ending".
 * My new formula is as follows: "s/\b to \b/,/g"
 * I run it through RegX, and it stil doesn't work.
